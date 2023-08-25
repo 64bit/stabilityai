@@ -1,0 +1,5 @@
+[workspace]
+members = ["stabilityai", "examples/*"]
+# Only check / build main crates by default (check all with `--workspace`)
+default-members = ["stabilityai"]
+resolver = "2"

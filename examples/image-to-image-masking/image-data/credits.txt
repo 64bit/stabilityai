@@ -1,0 +1,1 @@
+Images are from https://platform.stability.ai/docs/features/inpainting#Python

@@ -170,24 +170,22 @@ pub struct TextToImageRequestBody {
     /// Given a text prompt with the text `A lighthouse on a cliff` and a weight
     /// of `0.5`, it would be represented as:
     ///
-    /// ```
-    /// text_prompts[0][text]: "A lighthouse on a cliff"
-    /// text_prompts[0][weight]: 0.5
-    /// ```
+    /// `text_prompts[0][text]: "A lighthouse on a cliff"`
+    ///
+    /// `text_prompts[0][weight]: 0.5`
     ///
     ///
     /// To add another prompt to that request simply provide the values
     /// under a new `index`:
     ///
     ///
+    /// `text_prompts[0][text]: "A lighthouse on a cliff"`
     ///
-    /// ```
-    /// text_prompts[0][text]: "A lighthouse on a cliff"
-    /// text_prompts[0][weight]: 0.5
+    /// `text_prompts[0][weight]: 0.5`
     ///
-    /// text_prompts[1][text]: "land, ground, dirt, grass"
-    /// text_prompts[1][weight]: -0.9
-    /// ```
+    /// `text_prompts[1][text]: "land, ground, dirt, grass"`
+    ///
+    /// `text_prompts[1][weight]: -0.9`
     #[serde(flatten)]
     pub text_prompts: TextPrompts,
 

@@ -1,6 +1,3 @@
-<div align="center">
-<img width="300" src="">
-</div>
 <h1 align="center"> stabilityai </h1>
 <p align="center">Rust library for stability.ai </p>
 <div align="center">
@@ -82,6 +79,9 @@ async fn main() -> Result<(), Box<dyn Error>> {
 }
 ```
 
+<div align="center">
+  <img width="600" src="https://raw.githubusercontent.com/64bit/stabilityai/assets/examples/text-to-image/data/7uaqAjP7uz.png" />
+</div>
 
 ## Contributing
 
